@@ -5,14 +5,14 @@ set -e
 yarn build
 
 # 进入生成的文件夹
-cd docs/.vuepress/dist
+cd dist
 
 # 如果是发布到自定义域名
 # echo '111.173.115.117'
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m 'deploy3'
 
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master

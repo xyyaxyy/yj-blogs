@@ -4,8 +4,8 @@ const plugins = require('./config/plugins.js')
 module.exports = {
   title: "xyyaxyy'blogs",
   description: '一只菜鸟的博客',
-  // dest: 'dist',
-  // base: '/dist/',
+  dest: 'dist', // 指定 vuepress build 的输出目录
+  base: '/yj-blogs/',
   port: 8090,
 
   // 主题配置
