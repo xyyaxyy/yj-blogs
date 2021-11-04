@@ -4,10 +4,9 @@ const plugins = require('./config/plugins.js')
 module.exports = {
   title: "xyyaxyy'blogs",
   description: '一只菜鸟的博客',
-  dest: 'dist',
-  base: '/dist/',
+  // dest: 'dist',
+  // base: '/dist/',
   port: 8090,
-
 
   // 主题配置
   theme: 'reco',
