@@ -35,6 +35,10 @@ module.exports = {
             text: '收藏的网站',
             link: '/docs/test/'
           },
+          {
+            text: '博客搭建',
+            link: '/docs/博客搭建/'
+          }
         ]
       },
       {

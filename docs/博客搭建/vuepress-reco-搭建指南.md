@@ -1,13 +1,9 @@
 ---
-title: meat标签
-date: 2021-11-01
-tags:
- - tag2
-categories:
- - 前端
+title: vuepress-theme-reco 搭建指南
+date: 2021-11-04
 sticky: 
   description: 文章置顶。
-  type: 1
+  type: 10
   sort type: 降序，可以按照 1, 2, 3, ... 来降低置顶文章的排列优先级
 ---
 ::: tip
