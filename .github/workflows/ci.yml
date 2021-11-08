@@ -30,6 +30,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # 这里需要设置成你的 token
           branch: gh-pages # The branch the action should deploy to.
           folder: dist # The folder the action should deploy.
 
