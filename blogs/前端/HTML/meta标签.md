@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-11-03 17:54:15
+ * @LastEditTime: 2021-11-08 15:02:20
+ * @LastEditors: your name
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: \my-blogs\blogs\前端\HTML\meta标签.md
+-->
 ---
 title: meat标签
 date: 2021-11-01
@@ -11,14 +19,14 @@ sticky:
   sort type: 降序，可以按照 1, 2, 3, ... 来降低置顶文章的排列优先级
 ---
 ::: tip
-前提条件
-Vuepress 需要 Node.js > 8.6  
-vuepress 1.8.2  
-vuepress-theme-reco 1.6.6
+meta标签
 :::
-## 一、初始化项目
-本文章以[vuepress-theme-reco](https://vuepress-theme-reco.recoluan.com/)主题搭建博客，你也可以用其他的主题，比如[vuepress-theme-vdoing](https://xugaoyi.github.io/vuepress-theme-vdoing-doc/)。
-### 1、创建一个新的目录
+## 一、基本标签
+不区分大小写
+```html
+<!DOCTYPE html> <!-- 使用 HTML5 doctype，不区分大小写 -->
+```
+## 二、meta属性
 ```sh
 mkdir my-blogs && cd my-blogs
 ```
