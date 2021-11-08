@@ -32,9 +32,9 @@ jobs:
           yarn build
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@3.5.9  // 引用别人的部署插件
+        uses: JamesIves/github-pages-deploy-action@master  # 引用别人的部署插件
         with: 
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}   // 这里需要设置成你的 token
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}   # 这里需要设置成你的 token
           BRANCH: gh-pages
           FOLDER: dist
       # - name: run deploy.sh # 步骤3
