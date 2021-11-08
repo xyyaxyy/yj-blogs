@@ -25,7 +25,6 @@ mkdir my-blogs && cd my-blogs
 ```sh
 yarn init # npm init
 ```
-### 3、引入[vuepress-theme-reco](https://vuepress-theme-reco.recoluan.com/)主题
 ```sh
 yarn add -D vuepress-theme-reco # npm install -D vuepress-theme-reco
 ```
