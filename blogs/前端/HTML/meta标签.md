@@ -22,7 +22,6 @@ meta标签
 ```sh
 mkdir my-blogs && cd my-blogs
 ```
-### 2、使用你喜欢的包管理器进行初始化
 ```sh
 yarn init # npm init
 ```
