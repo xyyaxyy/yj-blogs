@@ -28,7 +28,6 @@ yarn init # npm init
 ```sh
 yarn add -D vuepress-theme-reco # npm install -D vuepress-theme-reco
 ```
-### 4、使用官方的模板初始化项目
 ```sh
 theme-cli init blogs
 ```
