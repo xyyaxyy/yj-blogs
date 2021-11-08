@@ -32,7 +32,6 @@ yarn add -D vuepress-theme-reco # npm install -D vuepress-theme-reco
 theme-cli init blogs
 ```
 根据步骤输入内容即可
-### 5、安装依赖并运行
 ```sh
 yarn install # npm install
 yarn dev # npm run dev
