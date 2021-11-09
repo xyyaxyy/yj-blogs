@@ -24,7 +24,7 @@ module.exports = {
         icon: 'reco-date'
       },
       {
-        text: 'Docs',
+        text: '文档',
         icon: 'reco-message',
         items: [
           {
@@ -32,25 +32,19 @@ module.exports = {
             link: '/docs/theme-reco/'
           },
           {
-            text: '收藏的网站',
-            link: '/docs/test/'
+            text: '博客搭建',
+            link: '/docs/bo-ke-da-jian/vuepress-reco-da-jian-zhi-nan.html'
           },
           {
-            text: '博客搭建',
-            link: '/docs/博客搭建/'
+            text: '收藏的网站',
+            link: '/docs/test/'
           }
         ]
       },
       {
-        text: 'Contact',
-        icon: 'reco-message',
-        items: [
-          {
-            'text': 'GitHub',
-            'link': 'https://github.com/xyyaxyy',
-            'icon': 'reco-github'
-          }
-        ]
+        text: 'GitHub',
+        icon: 'reco-github',
+        link: 'https://github.com/xyyaxyy'
       }
     ],
     // sidebar: {
